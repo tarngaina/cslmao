@@ -1,0 +1,13 @@
+{
+    "animated_topbar": true,
+    "border_bg": "#00163b",
+    "textfield_bg": "#75cffb",
+    "modname_text_fg": "#f0e7ff",
+    "edit_text_fg": "#150037",
+    "create_text_fg": "#150037",
+    "log_text_fg": "#150037",
+    "minilog_text_fg": "#150037",
+    "setting_text_fg": "#150037",
+    "scrollbar_fg": "#0084ff",
+    "scrollbar_bg": "#00163b"
+}
