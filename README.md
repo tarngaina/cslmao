@@ -1,4 +1,4 @@
-# cslmao
+# cslmao - another UI of cslol for modding League of Legends
 
 
 To run: install **python** and run `cslmao.py`
