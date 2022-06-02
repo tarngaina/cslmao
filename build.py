@@ -21,4 +21,4 @@ p = subprocess.Popen(
 for line in p.stdout:
     print(line.decode()[:-1])
     
-input()
+input('Enter to exit.')

@@ -1,14 +1,18 @@
-# cslmao - another UI of cslol for modding League of Legends
+# cslmao 
 
 
-To run: install **python** and run `cslmao.py`
+### Download
 
+[Latest release](https://github.com/tarngaina/cslmao/releases)
 
-To build: 
-1. Install **python** and **nuitka** on your computer
+### Build
+
+1. Install `python 3`: [Download here](https://www.python.org/downloads/)
+
+2. Install `nuikta`: 
 ```
 pip install nuitka
 ```
-2. Run `build.py`
+3. Run `build.py`
 
 ![Another UI of cslol](https://i.imgur.com/yRtPCXT.png)

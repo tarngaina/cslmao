@@ -15,7 +15,7 @@ from datetime import datetime as dt
 from shutil import rmtree, copy
 from ctypes import windll
 
-print(getpid())
+
 class PATH:
     APP = pdirname(ARGV[0])
     DATA = pjoin(APP, 'data')
