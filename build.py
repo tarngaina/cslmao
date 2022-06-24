@@ -1,5 +1,4 @@
 import subprocess
-
 cmds = [
     'nuitka',
     '--onefile',
@@ -7,13 +6,12 @@ cmds = [
     '--windows-disable-console',
     '--windows-company-name=tarngaina',
     '--windows-product-name=cslmao',
-    '--windows-file-version=3.3.4.0',
-    '--windows-product-version=3.3.4.0',
+    '--windows-file-version=3.3.6.0',
+    '--windows-product-version=3.3.6.0',
     '--plugin-enable=tk-inter',
     '--plugin-enable=numpy',
     'cslmao.py'
 ]
-
 p = subprocess.Popen(
     cmds, shell = True,
     stdout = subprocess.PIPE, stderr = subprocess.STDOUT,
@@ -21,4 +19,4 @@ p = subprocess.Popen(
 for line in p.stdout:
     print(line.decode()[:-1])
     
-input('Enter to exit.')
+input()
